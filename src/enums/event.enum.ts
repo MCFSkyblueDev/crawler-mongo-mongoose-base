@@ -1,0 +1,14 @@
+export enum Nft721ItemEvent {
+   ITEM_MINTED = "0x1b7a77b0f37dc0e29b0cf20d9fe0f095e0f060dadc86c226f2e8048a775d816",
+   EQUIP = "0x31d7a5a08ea2242d1fa8bd984cfe804855c68b80c7e319e5a605f3895a2f420",
+}
+
+export enum RegistryEvent {
+   ACCOUNT_CREATED = "0x1d9ca8a89626bead91b5cb4275a622219e9443975b34f3fdbc683e8621231a9",
+}
+
+export enum MarketEvent {
+   NFT_LISTED = "0x20f5aee8382e6ae7b26c3afdaef75c848fee2e1a99f0ab01ae881586a399625",
+   NFT_CANCELLED = "0x385b765d6fb48ec129fe830abdf59b32f90fb7aaa154c2d84121395addf3425",
+   NFT_BUY = "0xfd3ea4e828be95fea3593190b06cc4647f36d4ded50048f4fc9e9053156a78",
+}
